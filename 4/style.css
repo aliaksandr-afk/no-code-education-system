@@ -106,3 +106,56 @@
     font-style: italic;
   }
   
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "DM Sans", sans-serif;
+  }
+  
+  .award {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    min-height: 48px;
+  }
+  .award__p {
+    font-size: 15px;
+    color: #4b5563;
+  }
+  .award__images {
+    cursor: pointer;
+  }
+  .award__img {
+    position: absolute;
+    right: 168px;
+    top: 14px;
+  }
+  
+  .wrapp {
+    max-width: 1280px;
+    border: 1px solid red;
+    height: 72px;
+    margin: 0 auto;
+
+  }
+
+  /* header */
+
+  .header{
+    background-color: #00353b;
+  }
+
+  a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+  }
+
+   /* header end*/
