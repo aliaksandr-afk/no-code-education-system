@@ -140,10 +140,12 @@
   
   .wrapp {
     max-width: 1280px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 72px;
     margin: 0 auto;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   /* header */
@@ -156,6 +158,42 @@
     color: white;
     font-size: 15px;
     text-decoration: none;
+  }
+
+  .header__nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .header__card {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .header__btn {
+    background-color: #fff;
+    padding: 13px 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+
+  .header__menu {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .header__menu img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .header__menu a {
+    font-size: 17px;
   }
 
    /* header end*/
