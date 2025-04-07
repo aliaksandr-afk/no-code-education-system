@@ -197,3 +197,16 @@
   }
 
    /* header end*/
+
+  .main {
+    background-color: #00353b;
+  }
+
+  .section {
+    padding: 80px 0;
+  }
+  
+  .container {
+    min-width: 1280px;
+    margin: 0 auto;
+  }
