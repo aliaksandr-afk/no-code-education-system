@@ -219,12 +219,9 @@
   }
 
   .content__info {
-    width: 100%;
   }
 
-  .content__video {
-    width: 100%;
-  }
+
 
   .content__h1 {
     color: #fff;
@@ -273,4 +270,13 @@
   .content__btn2 img {
     width: 25px;
     height: 25px;
+  }
+
+  .content__videos {
+    width: 600px;
+    height: 640px;
+  }
+
+  .content__video {
+    width: 100%;
   }
