@@ -241,6 +241,7 @@
     display: flex;
     align-items: center;
     gap: 15px;
+    margin-bottom: 48px;
   }
 
   .content__btn1 {
@@ -279,4 +280,37 @@
 
   .content__video {
     width: 100%;
+  }
+
+  .reviews {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .reviews__images {
+    display: flex;
+    align-items: center;
+  }
+
+  .reviews__img {
+  }
+
+  .icon-star-full, 
+  .icon-star-half {
+    font-size: 26px;
+    color: #e0b420;
+  }
+
+  .reviews-rating-rat {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .reviews__rating p {
+    color: #fff;
+    font-size: 16px;
   }
